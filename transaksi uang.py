@@ -1,7 +1,8 @@
+# Variabel Global
 dataCatatan = ["Uang Jajan", "Biaya Sekolah", "Tabungan"]
 pilihan = ''
 
-Fungsi Aplikasi
+# Fungsi Aplikasi
 def daftarCatatan():
     return dataCatatan
 def tambahCatatan(catatanBaru):
@@ -9,9 +10,9 @@ def tambahCatatan(catatanBaru):
     catatan.append(catatanBaru)
     return catatan
 
-Aplikasi Utama
+# Aplikasi Utama
 print("Hello Selamat Datang Di Aplikasi Bundahara Digital")
-Loop utama aplikasi / Main Application Loop
+# Loop utama aplikasi / Main Application Loop
 for x in range(10):
     print("################################################################")
     print("Silahkan Pilih Menu Dibawah Ini:")
@@ -36,3 +37,4 @@ for x in range(10):
 
     if x == 9:
         print("Anda telah mencapai batas maksimum penggunaan aplikasi dalam satu sesi. Silakan mulai ulang aplikasi jika ingin melanjutkan.")
+
